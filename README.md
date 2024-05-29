@@ -3,13 +3,24 @@
 ## Java Basics
 
 1. What is the difference between an interface and an Abstract class (接口和抽象类的区别)
-
-Both define an interface that has to be implemented. Abstract class can contain concrete methods as well as abstract. Abstract class can contain regular class fields. Interface can contain only public static final fields.
-
-两者都定义了一个必须实现的接口。抽象类可以包含具体方法以及抽象方法。抽象类可以包含常规类字段。接口只能包含公共静态最终字段。
+  
+   - An abstract class can contain both abstract and non-abstract methods but interface can contains only abstract method.
+   - An abstract class can have all four (static, non-static and final, non-final variables) but interface only can have
+     static variables
+   - Abstract class supports kmultiple inheritance but interface does not.
+   - Abstract class has class members like private and protected, etc but interface has class members publis by default.
    
 2. What is the difference between a constructor and a method? (构造函数和方法的区别)
 
+   - A constructor is a block of code that initializes a newly created object and method is a collection of statement which       returns a value upon its execution.
+   - A constructor can be used to initialize an object and a method consists of Java code to be executed
+   - A constructor doesn'thave a return type but a method must have a return type
+   - Constructor initializes a object that doesn't exist but method does operations on an already created object.
+   - A constructor's name must be same as the name of the class but method's name can be anything.
+   - Constructor cannot be inherited by subclasses but method can be inherited by subclasses
+   
+3. State the significance of public, private, protected, default modifiers both singly and in combination and state the effect    of package relationships on declared items qualified by these modifiers.
 
    
-3. asd
+   
+4. 
