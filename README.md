@@ -19,7 +19,8 @@
    - A constructor's name must be same as the name of the class but method's name can be anything.
    - Constructor cannot be inherited by subclasses but method can be inherited by subclasses
    
-### 3. State the significance of public, private, protected, default modifiers both singly and in combination and state the           effect of package relationships on declared items qualified by these modifiers.
+### 3. State the significance of public, private, protected, default modifiers both singly and in combination and state the 
+        effect of package relationships on declared items qualified by these modifiers.
 
    
    
